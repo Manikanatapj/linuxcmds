@@ -1,0 +1,80 @@
+cp -R <source_folder> <destination_folder>
+cp -R <source_folder_1> <source_folder_2> ... <source_folder_n>  <destination_folder>
+cp -R /etc/* /home/* /backup_folder
+rsync -ar <source_folder> <destination_user>@<destination_host>:<path>
+sudo apt-get install rsync
+sudo yum install rsync
+scp -r <source_folder> <destination_user>@<destination_host>:<path>
+scp -r /etc devconnected@192.168.178.35:/etc_backup/
+•	–v  verbose: shows the progress of multiple copied files
+•	–p  preserve: keeps the same attributes, like creation date and file permissions
+•	–f  force: force the copy by deleting an existing file first
+•	–i  interactive: prompts for confirmation, highly advised
+•	–R recursive: copies all files and subfolders in a directory
+•	–u update: copy only if source is newer than destination
+
+List User Last Login on Linux
+lastlog
+lastlog -u <user>
+
+Linux cp --backup
+1.	cp --backup <filename> <destinationDirectory>  
+copy a file from my local computer to a remote server with ssh.
+Ex: cp /home/username/some.xml root@xxx.xx.xxx.xx:/path/to/directory/ 
+
+Linux Copy Multiple Files or Directories
+1.	cp *.<extension> <destinationDirectory>  
+Example:
+1.	cp *.txt /home/sssit/Documents 
+
+ find . -mtime +10 | xargs ls –l
+ find . -mtime -10 | xargs - delete
+ 
+ To view a common log file called /var/log/messages use any one of the following command:
+# less /var/log/messages
+# more -f /var/log/messages
+# cat /var/log/messages	
+# tail -f /var/log/messages
+# grep -i error /var/log/messages
+
+The procedure to monitor and display open ports in Linux is as follows:
+1.	Open a Linux terminal application
+2.	Use ss command to display all open TCP and UDP ports in Linux.
+3.	Another option is to use the netstat command to list all ports in Linux.
+4.	Apart from ss/netstat one can use the lsof command to list open files and ports on Linux based system.
+5.	Finally, one can use nmap command to check TCP and UDP ports too.
+Let us see all commands and examples in details.
+
+To c last executed commands
+
+If you wish to view the history one page at a time, you can use the command below. Now, you can simply use the spacebar to view one page at a time or use the down arrow to view one line at a time:
+
+history | less
+
+To view just the last ten commands, you can use the following:
+
+history | tail
+
+To view the last 25 commands, just use the following:
+
+history 25
+
+Another tool you can use with history is Ctrl + R. This will output a search feature. Just begin typing a command and it will complete the command with the most recent match. If it is not the one you need, simply type a few more letters until you find the command you wanted. Once you find it, simply press the return key to run or press the right arrow key to edit it.
+
+Another way to search history is with the following command (just be sure to replace "searchterm"):
+history | grep -i searchterm | less
+As you can see, the history command can be very useful in finding the last commands that have been used on your (mt) Media Temple service.
+
+If the user has changed their prompt to some other format we need to try something else. The who command will give us the information we are looking for.
+
+who
+
+You can get the same one-word answer by echoing the $USER environment variable to the screen.
+
+echo $USER
+
+The one-letter command w requires less typing and provides more information.
+w
+
+
+
