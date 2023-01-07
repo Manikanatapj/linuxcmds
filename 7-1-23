@@ -1,0 +1,358 @@
+[ec2-user@ip-172-31-17-224 ~]$ history
+    1  ssh -i "master-agent1.pem" ec2-user@ec2-34-209-153-54.us-west-2.compute.amazonaws.com
+    2  sudo yum install gcc make maven git
+    3  ssh-keygen -t rsa
+    4  sudo yum update
+    5  sudo yum install wget curl
+    6  wget -0 /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    7  sudo wget -0 /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    8  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    9  sudo rpm ---import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   10  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   11  sudo yum upgrade
+   12  sudo yum install java-11-openjdk
+   13  sudo amazon-linux-extras install java-openjdk11
+   14  sudo yum install jenkins
+   15  sudo systemctl daemon-reload
+   16  sudo systemctl enable jenkins
+   17  sudo systemctl start jenkins
+   18  sudo systemctl status jenkins
+   19  cd .ssh
+   20  ls
+   21  cd .ssh
+   22  ls
+   23  cat id_rsa.pub
+   24  ssh ec2-user@3.144.161.52
+   25  cat /var/lib/jenkins/secrets/initialAdminPassword
+   26  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   27  ssh ec2-user@3.144.161.52
+   28  cd .ssh
+   29  ls
+   30  cat id_rsa
+   31  ssh ec2-user@18.221.186.68
+   32  sudo yum install git
+   33  /1***** date>>date.txt
+   34  /1 * * * * * echo date>>date.txt
+   35  touch date.txt
+   36  /1 * * * * * echo date>>date.txt
+   37  crontab -e
+   38  touch date.txt
+   39  crontab -l
+   40  crontab -e
+   41  clear
+   42  ls
+   43  crontab -e
+   44  ls
+   45  date
+   46  crontab -e
+   47  ls
+   48  date
+   49  pwd
+   50  crontab -l
+   51  crontab -e
+   52  sudo yum install cron
+   53  sudo  apt-get install cron
+   54  sudo apt-get install cron
+   55  sudo apt install cron
+   56  sudo yum install cron
+   57  pwd
+   58  crontab -e
+   59  cd /home/ec2-user
+   60  ls
+   61  cat date.txt
+   62  ls
+   63  ls -a
+   64  cat file.txt
+   65  ls
+   66  crontab -e
+   67  ls
+   68  crontab -e
+   69  ls
+   70  ls
+   71  ls
+   72  ls
+   73  pwd
+   74  ls -a
+   75  ls
+   76  cat date.txt
+   77  date
+   78  ls
+   79  cat file.txt
+   80  ls
+   81  cat file.txt
+   82  crontab -l
+   83  ls
+   84  ssh -i "master-agent1.pem" ec2-user@ec2-35-161-162-1.us-west-2.compute.amazonaws.com
+   85  crontab -e
+   86  ls
+   87  cat date2.txt
+   88  date
+   89  ls
+   90  cat file.txt
+   91  crontab -e
+   92  ls
+   93  ls test1.txt
+   94  cat test1.txt
+   95  clear
+   96  cat test1.txt
+   97  clear
+   98  cat test1.txt
+   99  ls test1.txt
+  100  cat test1.txt
+  101  clear
+  102  cat test1.txt
+  103  clear
+  104  cat test1.txt
+  105  ssh -i "master-agent1.pem" ec2-user@ec2-52-41-98-44.us-west-2.compute.amazonaws.com
+  106  cat test1.txt
+  107  clear
+  108  cat test1.txt
+  109  clear
+  110  cat test1.txt
+  111  ls
+  112  cd practice
+  113  ls
+  114  touch testfile{001..007}.txt
+  115  ls
+  116  pwd
+  117  touch file{1-10}.txt
+  118  ls
+  119  mkdir practice
+  120  cd practise
+  121  cd practice
+  122  pwd
+  123  cp /home/ec2-usr/practice/testfile001.txt /home/ec2-usr/practice/p1/file{1..4}
+  124  mkdir p1
+  125  ls
+  126  cp /home/ec2-usr/practice/testfile001.txt /home/ec2-usr/p1/file{1..4}
+  127  cp /home/ec2-usr/practice/testfile001.txt /home/ec2-usr/p1
+  128  ls
+  129  ls -a
+  130  syslog
+  131  cd /var/log
+  132  ls
+  133  syslog
+  134  ls
+  135  cd practice
+  136  ls
+  137  vi testfile001.txt
+  138  cp -R testfile001.txt testfile{002..007}.txt
+  139  cp testfile001.txt testfile{002..007}.txt
+  140  cp testfile001.txt testfile002.txt
+  141  ls
+  142  cd practice
+  143  cp --backup home/ec2-user/practice  home/ec2-user/p1
+  144  cd .
+  145  cd ..
+  146  ls
+  147  cp --backup home/ec2-user/practice  home/ec2-user/p1
+  148  cp --backup testfile001.txt  home/ec2-user/p1
+  149  sudo cp --backup testfile001.txt home/ec2-user/p1
+  150  sudo cp --backup home/ec2-user/testfile001.txt home/ec2-user/p1
+  151  sudo cp --backup home/ec2-user/practice home/ec2-user/p1
+  152  ls
+  153  cd practice
+  154  ls
+  155  cp -v testfile001.txt testfile{002..007}.txt
+  156  pwd
+  157   cp -v /home/ec2-user/testfile001.txt /home/ec2-user/testfile{002..007}.txt
+  158   cp -v textfile002 textfile003
+  159  ls
+  160  cd practice
+  161   cp -v /home/ec2-user/testfile001.txt /home/ec2-user/testfile{002..007}.txt
+  162   cp -v /home/ec2-user/practice/testfile001.txt /home/ec2-user/practice/testfile{002..007}.txt
+  163  ls
+  164   cp -v textfile002 textfile003
+  165  cat testfile002
+  166  cat testfile002.txt
+  167  clear
+  168   cp -v textfile002.txt textfile003.txt
+  169   cp -v testfile002.txt testfile003.txt
+  170  cat testfile003
+  171  cat testfile003.txt
+  172  clear
+  173   cp -v testfile002.txt testfile004.txt
+  174   cp -v testfile002.txt testfile005.txt
+  175   cp -v testfile002.txt testfile006.txt
+  176   cp -v testfile002.txt testfile007.txt
+  177  var/log$
+  178  var/log
+  179  lastlog
+  180  lastlog -u <ec2-user>
+  181  lastlog -u ec2-user
+  182  find . -mtime +5 | xargs ls -ltr
+  183  find . -mtime +10 | xargs ls -ltr
+  184  vi log.sh
+  185  find . -mtime +5
+  186  find . -mtime +10 | xargs ls -l
+  187  find . -mtime +10 |ls -l
+  188  find . -mtime -10 |ls -l
+  189  vi log.sh
+  190  sh log.sh
+  191  find . -mtime -5 | xargs ls -l
+  192  find . -mtime +5 -print
+  193  find . -mtime +5 | ls-l
+  194  find . -mtime +5 | xargs ls-l
+  195  find . -mtime -5 | xargs ls -l
+  196  find . -mtime +5 | xargs ls -l
+  197  clear
+  198  find . -mtime +5 | xargs ls -l
+  199  find . -mtime +10 | xargs ls -l
+  200  clear
+  201  find . -mtime +5 | xargs ls -l
+  202  clear
+  203  find . -mtime +10 | xargs ls -l
+  204  ssh -i "master-agent1.pem" ec2-user@ec2-34-220-122-32.us-west-2.compute.amazonaws.com
+  205  sudo lsof -i -P -n | grep LISTEN
+  206  less /etc/services
+  207  man lsof
+  208  man netstat
+  209  netstat
+  210  ss/netstat/lsof
+  211  less /var/log/messages
+  212  sudo less /var/log/messages
+  213  sudo tail -f /var/log/messages
+  214  sudo tail -f /var/log
+  215  grep -i error /var/log/messages
+  216  sudo grep -i error /var/log/messages
+  217  sudo grep -i tail -f error /var/log/messages
+  218  sudo grep -f error /var/log/messages
+  219  htop
+  220  htop -d
+  221  ssh -i "master-agent1.pem" ec2-user@ec2-18-236-177-82.us-west-2.compute.amazonaws.com
+  222  top
+  223  htop -C
+  224  htop -d
+  225  htop -h
+  226  sudo htop -h
+  227  ps -T
+  228  git add .
+  229  mkdir git
+  230  cd git
+  231  file.txt
+  232  git init
+  233  ls -a
+  234  vi file1.txt
+  235  git add .
+  236  git commit -m "1st commit"
+  237  git config
+  238  git config --global user.name "Manu"
+  239  git config --global user.email manupj191190@gmail.com
+  240  git commit -m "1st commit"
+  241  git status
+  242  git log
+  243  ls
+  244  vi file1.txt
+  245  git add .
+  246  git commit " 2nd commit"
+  247  git commit -m "2nd commit"
+  248  git status
+  249  git log
+  250  git tree
+  251  git checkout
+  252  git log
+  253  history
+  254  top
+  255  man
+  256  man ls
+  257  hostname
+  258  hostname alias
+  259  sudo hostname alias
+  260  sudo hostname -a
+  261  sudo hostname -A
+  262  sudo hostname -i
+  263  touch add.sh
+  264  vi add.sh
+  265  sh add.sh
+  266  vi add1.sh
+  267  sh add1.sh
+  268  sh add.sh 1 2 3
+  269  ls
+  270  cd assighn
+  271  ls
+  272  vi string.sh
+  273  sh revstr.sh
+  274  vi string.sh
+  275  sh string.sh
+  276  vi string.sh
+  277  vi string1.sh
+  278  sh string1.sh
+  279  devopsnovember
+  280  sh string1.sh
+  281  hihowrumanu
+  282  sh string1.sh
+  283  clear
+  284  sh string1.sh
+  285  hihowru
+  286  sh string1.sh
+  287  log -ls
+  288  log
+  289  vi script4.sh
+  290  sh script4.sh 1234
+  291  vi script4.sh
+  292  sh script4.sh 1234
+  293  mkdir assighn
+  294  cd assighn
+  295  ls
+  296  vi revstr.sh
+  297  ls
+  298  cd assighn
+  299  ls
+  300  cat string1.sh
+  301  sh string1.sh
+  302  vi string1.sh
+  303  tail -n -5 file2.txt
+  304  tail -5 file2.txt
+  305  more file2.txt
+  306  vi file2.txt
+  307  head -n 5 file2.txt
+  308  head -5 file.txt
+  309  head -5 file2.txt
+  310   ps -o pid,user,%mem,command ax | sort -b -k3 -r
+  311  sudo pmap 917
+  312  ps -eo pmem,pcpu,vsize,pid,cmd | sort -k 1 -nr | head -5
+  313  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -10
+  314  ps -eo pid,cmd,%cpu,%mem --sort=-%mem
+  315  top -b -o +%MEM
+  316  top -b -o +%MEM | head -5
+  317  top -b -o +%MEM | head -20
+  318  top -o +%MEM | head -5
+  319  top -b +%MEM | head -5
+  320  top -b -o
+  321  top -b -o pid,user,%mem
+  322  top -b -o pid,user,%mem ax
+  323  top -b pid,user,%mem ax
+  324  sar -u 1 2 3
+  325  sar -P ALL 1 2
+  326  sar -r 1 2
+  327  ps -eocomm,pcpu | egrep -v '(0.0)|(%CPU)'
+  328  ps -eocomm,pcpu | egrep -v '(0.0)|(%CPU)(%MEM)'
+  329  ps -eocomm,pcpu | egrep -v '(0.0)|(%CPU)|(%MEM)'
+  330  pid=`ps -A --sort -rss --format pid --no-headers | head -n1`
+  331  ps -ef | grep your_process_name | grep -v grep | awk '{print $2}' | xargs kill
+  332  ps -ef
+  333  ps -ef | grep your_process_name
+  334  ps -ef | grep your_process_name | grep -v grep
+  335  ps -eocomm,pcpu | egrep -v '(0.0)|(%CPU)'
+  336  ps -eo pmem,pcpu,vsize,pid,cmd | sort -k 1 -nr | head -5
+  337  ps -o pid,user,%mem,command ax | sort -b -k3 –r
+  338  ps -eo pid,cmd,%cpu,%mem --sort=-%mem
+  339  ps -eo pid,cmd,%cpu,%mem --sort=-%mem | head -10
+  340  ps -eo pid,cmd,%cpu,%mem,vsize --sort=-%mem | head -10
+  341  vi kill.sh
+  342  sh kill.sh
+  343  vi kill.sh
+  344  $ps -ef | egrep -v "STIME|$LOGNAME" | sort +3 -r | head -n 15
+  345  ps -ef | egrep -v "STIME|$LOGNAME" | sort +3 -r | head -n 15
+  346  ps aux --sort=-%mem | head
+  347  ps -eo pid,comm,%cpu | sort -rk 3 | head
+  348  ps -eo pid,comm,%cpu,%mem | sort -rk 3 | head
+  349  ps aux --sort -rss | head
+  350  log -ls
+  351  last
+  352  last
+  353  ps aux
+  354  ps aux --sort -%cpu
+  355  ps aux --sort -%mem | head -10
+  356  ps -eo pid,ppid,cmd,comm,%mem,%cpu --sort=-%mem | head -10
+  357  history
