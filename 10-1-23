@@ -1,0 +1,104 @@
+  333  ps -ef | grep your_process_name
+  334  ps -ef | grep your_process_name | grep -v grep
+  335  ps -eocomm,pcpu | egrep -v '(0.0)|(%CPU)'
+  336  ps -eo pmem,pcpu,vsize,pid,cmd | sort -k 1 -nr | head -5
+  337  ps -o pid,user,%mem,command ax | sort -b -k3 –r
+  338  ps -eo pid,cmd,%cpu,%mem --sort=-%mem
+  339  ps -eo pid,cmd,%cpu,%mem --sort=-%mem | head -10
+  340  ps -eo pid,cmd,%cpu,%mem,vsize --sort=-%mem | head -10
+  341  vi kill.sh
+  342  sh kill.sh
+  343  vi kill.sh
+  344  $ps -ef | egrep -v "STIME|$LOGNAME" | sort +3 -r | head -n 15
+  345  ps -ef | egrep -v "STIME|$LOGNAME" | sort +3 -r | head -n 15
+  346  ps aux --sort=-%mem | head
+  347  ps -eo pid,comm,%cpu | sort -rk 3 | head
+  348  ps -eo pid,comm,%cpu,%mem | sort -rk 3 | head
+  349  ps aux --sort -rss | head
+  350  log -ls
+  351  last
+  352  last
+  353  ps aux
+  354  ps aux --sort -%cpu
+  355  ps aux --sort -%mem | head -10
+  356  ps -eo pid,ppid,cmd,comm,%mem,%cpu --sort=-%mem | head -10
+  357  history
+  358  sudo apt-get install awscli
+  359  sudo apt install awscli
+  360  sudo yum install awscli
+  361  aws configure
+  362  aws configure
+  363  sudo -H -u thatuser aws configure list
+  364  aws configure
+  365  grep “^hello” testfile001.txt
+  366  ls
+  367  ls
+  368  grep “^hello” testfile001.txt
+  369  grep “^the” testfile001.txt
+  370  grep -i “^the” testfile001.txt
+  371  grep -i “^t” testfile001.txt
+  372  grep -i “^t**” testfile001.txt
+  373  grep -c “^t**” testfile001.txt
+  374  grep -c “t**” testfile001.txt
+  375  grep -c “t” testfile001.txt
+  376  grep -o “t” testfile001.txt
+  377  grep “[a-e]” testfile001.txt
+  378  grep -c “[a-e]” testfile001.txt
+  379  grep -C 2 -i "Example" testfile001.txt
+  380  cat testfile001.txt
+  381  grep -c "has" testfile001.txt
+  382  grep “^hello” testfile001.txt
+  383  grep “^the” testfile001.txt
+  384  grep “Among” testfile001.txt
+  385  grep -o “Among” testfile001.txt
+  386  grep “^The” testfile001.txt
+  387  grep “^This” testfile001.txt
+  388  grep “[a-e]” testfile001.txt
+  389  grep -r "the" *
+  390  grep -i "the" *
+  391  grep -c "the" *
+  392  grep -c "the" testfile001.txt
+  393  grep -o "the" testfile001.txt
+  394  grep -o -c "the" testfile001.txt
+  395  grep -c -o "the" testfile001.txt
+  396  grep -c "the" testfile001.txt | grep -o "the" testfile001.txt
+  397  grep -c "the" testfile001.txt | grep -i "th" testfile001.txt
+  398  grep -i "th" testfile001.txt
+  399  grep -c "th" testfile001.txt
+  400  grep -c "t**" testfile001.txt
+  401  grep -c "the" testfile001.txt
+  402  grep -c "age" testfile001.txt
+  403  grep -c "a**" testfile001.txt
+  404  grep -o "a**" testfile001.txt
+  405  grep -l "a**" testfile001.txt
+  406  grep -n "a**" testfile001.txt
+  407  grep -n "a*d" testfile001.txt
+  408  grep -n "^a*d" testfile001.txt
+  409  grep -n "R****" testfile001.txt
+  410  grep -v "R****" testfile001.txt
+  411  grep -v "Rules" testfile001.txt
+  412  grep -v -e "pattern" -e "pattern"
+  413  ls
+  414  cd practice
+  415  ls
+  416  cat testfile001
+  417  cat testfile001.txt
+  418  more -6 file001.txt
+  419  more -6 testfile001.txt
+  420   tail -5 testfile001.txt
+  421   tail n -5 testfile001.txt
+  422  locate testfile001.txt
+  423  cat testfile001.txt | rev
+  424  grep ^name testfile001.txt
+  425  grep -i "look" testfile001.txt
+  426  grep -i "the" testfile001.txt
+  427  grep -h "the" testfile001.txt
+  428  grep -l "the" testfile001.txt
+  429  grep -n "the" testfile001.txt
+  430  A*f
+  431  grep -c "A*f" testfile001.txt
+  432  grep -o "A*f" testfile001.txt
+  433  grep -c "t*e" testfile001.txt
+  434  grep -o "t*e" testfile001.txt
+  435  grep -w "t*e" testfile001.txt
+  436  history
