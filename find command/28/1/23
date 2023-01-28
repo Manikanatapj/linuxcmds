@@ -1,0 +1,82 @@
+   55  28/01/23 01:16:02 mkdir linuxcmd
+   56  28/01/23 01:16:18 cd linuxcmd
+   57  28/01/23 01:16:58 touch pract1,pract2,pract3
+   58  28/01/23 01:17:01 ls
+   59  28/01/23 01:18:12 cat pract1.txt
+   60  28/01/23 01:18:29 rm pract1,pract2,pract3
+   61  28/01/23 01:18:32 ls
+   62  28/01/23 01:18:54 touch pract1.txt,pract2.txt,pract3.txt
+   63  28/01/23 01:18:58 ls
+   64  28/01/23 01:19:09 cat pract1.txt
+   65  28/01/23 01:19:53 rm pract1.txt,pract2.txt,pract3.txt
+   66  28/01/23 01:19:56 ls
+   67  28/01/23 01:20:25 touch pract{1..5}.txt
+   68  28/01/23 01:20:28 ls
+   69  28/01/23 01:20:40 cat pract1.txt
+   70  28/01/23 01:23:09 vi pract1.txt
+   71  28/01/23 01:24:09 vi pract2.txt
+   72  28/01/23 01:25:34 find pract1.txt
+   73  28/01/23 01:26:04 mkdir pract
+   74  28/01/23 01:26:09 cd pract
+   75  28/01/23 01:26:25 touch pract{11..15}.txt
+   76  28/01/23 01:26:33 find pract1.txt
+   77  28/01/23 01:26:50 find . -pract1.txt
+   78  28/01/23 01:27:04 find .-pract1.txt
+   79  28/01/23 01:27:19 find ..-pract1.txt
+   80  28/01/23 01:27:35 find ..-pract11.txt
+   81  28/01/23 01:27:46 find pract11.txt
+   82  28/01/23 01:27:57 find -pract11.txt
+   83  28/01/23 01:28:12 pwd
+   84  28/01/23 01:28:58 find /home/ubuntu/linuxcmd pract1.txt
+   85  28/01/23 01:29:33 find /home/ubuntu/linuxcmd -pract1.txt
+   86  28/01/23 01:29:50 find .-pract1.txt
+   87  28/01/23 01:29:57 find ..-pract1.txt
+   88  28/01/23 01:30:30 find pract1.txt
+   89  28/01/23 01:30:53 find .-pract11.txt
+   90  28/01/23 01:31:01 find . pract11.txt
+   91  28/01/23 01:31:19 find -pract11.txt
+   92  28/01/23 01:34:20 pwd
+   93  28/01/23 01:34:48 find /pract pract11.txt
+   94  28/01/23 01:35:35 ls
+   95  28/01/23 01:35:57 find /linuxcmd pract11.txt
+   96  28/01/23 01:36:10 find /linuxcmd pract1.txt
+   97  28/01/23 01:36:30 cd linuxcmd
+   98  28/01/23 01:36:39 ls a
+   99  28/01/23 01:36:45 ls -a
+  100  28/01/23 01:37:09 find /linuxcmd pract1.txt
+  101  28/01/23 01:37:38 find /linuxcmd > pract1.txt
+  102  28/01/23 01:38:24 find / > pract1.txt
+  103  28/01/23 01:41:36 pwd
+  104  28/01/23 01:42:15 find ./linuxcmd/pract pract1.txt
+  105  28/01/23 01:42:28 find . /linuxcmd/pract pract1.txt
+  106  28/01/23 01:42:52 find . /linuxcmd/pract pract11.txt
+  107  28/01/23 01:43:11 find . /pract pract11.txt
+  108  28/01/23 01:43:34 find . pract pract11.txt
+  109  28/01/23 01:45:30 find ./GFG -name pract11.txt
+  110  28/01/23 01:45:48 find ./pract -name pract11.txt
+  111  28/01/23 01:45:54 tree
+  112  28/01/23 01:46:10 sudo snap install tree
+  113  28/01/23 01:46:27 tree
+  114  28/01/23 01:46:39 cd
+  115  28/01/23 01:46:47 tree
+  116  28/01/23 01:47:38 find ./pract -name pract11.txt
+  117  28/01/23 01:47:59 find .linuxcmd -name pract11.txt
+  118  28/01/23 01:48:19 find ./linuxcmd -name pract11.txt
+  119  28/01/23 01:50:38 find ./linuxcmd -name pract11.txt -exec rm -i {} \;
+  120  28/01/23 01:51:03 ls
+  121  28/01/23 01:51:42 find ./pract -name pract11.txt -exec rm -i {} \;
+  122  28/01/23 01:52:13 find ./linuxcmd/pract -name pract11.txt
+  123  28/01/23 01:52:27 find ./linuxcmd/pract -name pract1.txt
+  124  28/01/23 01:56:15 find ./linuxcmd/pract/ -empty
+  125  28/01/23 01:56:26 find ./linuxcmd -empty
+  126  28/01/23 01:57:50 $ find ./linuxcmd/pract -perm 664
+  127  28/01/23 01:58:02 find ./linuxcmd/pract -perm 664
+  128  28/01/23 02:00:15 $ find ./ -type f -name "*.txt" -exec grep 'the'  {} \;
+  129  28/01/23 02:00:31 find ./ -type f -name "*.txt" -exec grep 'the'  {} \;
+  130  28/01/23 02:01:03 $ find ./linuxcmd -type f -name "*.txt" -exec grep 'the'  {} \;
+  131  28/01/23 02:01:44 $ find ./linuxcmd/pract -type f -name "*.txt" -exec grep 'the'  {} \;
+  132  28/01/23 02:02:01 log
+  133  28/01/23 02:02:08 history
+  134  28/01/23 02:03:35 HISTTIMEFORMAT
+  135  28/01/23 02:04:24 HISTTIMEFORMAT="%d/%m/%y %T "
+  136  28/01/23 02:04:53 history
