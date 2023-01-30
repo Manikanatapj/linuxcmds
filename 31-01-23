@@ -1,0 +1,28 @@
+Last login: Sun Jan 29 06:40:59 2023 from 152.58.232.137
+ubuntu@ip-172-31-53-246:~$ history
+    1  sudo group add
+    2  sudo groupadd docker
+    3  sudo usermod -aG docker $USER
+    4  echo $USER
+    5  EXIT
+    6  exit
+    7  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+    8  sudo mkdir -p /etc/apt/keyrings
+    9  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   10  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   11    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   12  sudo apt-get update
+   13  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+   14  sudo docker info
+   15  mkdir jenkins_home
+   16  cd jenkins_home
+   17  docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+   18  jenkins_home$ docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+   19  docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+   20  ls
+   21  mkdir docker
+   22  ls
+   23  cd docker
+   24  sudo yum apt update
+   25  sudo apt update
+   26  history
